@@ -1,0 +1,86 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+    <header>
+        <h1><span class="panic">PANIC</span>PITCH</h1>
+        <h2>Skapa ett elevator-pitch på nolltid</h2>
+
+        <nav>
+            <a href="#">Pitch</a>
+            <div class="divider"></div>
+            <a href="sites/FAQ.html">Hjälp</a>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div id="allTheInputs">
+            <!--The empty div is so flex-box works correctly-->
+            <div>
+                <p class="label"> Namn på tjänsten</p>
+                <div class="holderForInput">
+                    <input id="inputName" type="text" placeholder="ex) Panic sales pitch">
+                </div>
+            </div>
+
+            <!--The empty div is so flex-box works correctly-->
+            <div>
+                <p class="label">Slogan</p>
+                <div class="holderForInput">
+                    <input id="inputSlogan" size="35" type="text" placeholder="ex) För en bättre värld">
+                </div>
+            </div>
+
+            <div id="adjectives">
+                <p class="label">Adjektiv som beskriver din tjänst/produkt</p>
+                <div class="holderForInput">
+                    <input id="inputAdjective1" type="text" placeholder="ex) snabb, lätt, cool">
+                </div>
+                <div class="holderForInput">
+                    <input id="inputAdjective2" type="text" placeholder="ex) snabb, lätt, cool">
+                </div>
+            </div>
+
+            <div>
+                <p class="label">Verb folk ogillar</p>
+                <div class="holderForInput">
+                    <input id="inputVerb1" type="text" placeholder="ex) städa, gå, diska, luras">
+                </div>
+            </div>
+
+            <button id="generateButton" type="button">Skapa pitch</button>
+        </div>
+
+        <textarea title="pitch" id="output" rows="7" cols="50"> </textarea>
+
+        <!-- end of body -->
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+    </body>
+</html>
