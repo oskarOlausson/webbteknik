@@ -39,8 +39,8 @@
             <!--The empty div is so flex-box works correctly-->
             <div>
                 <p class="label"> Namn på tjänsten</p>
-                <div class="holderForInput">
-                    <input id="inputName" type="text" placeholder="ex) Panic sales pitch">
+                <div class="holderForInput" >
+                    <input id="inputName" size="35" type="text" placeholder="ex) Panic sales pitch">
                 </div>
             </div>
 
@@ -52,27 +52,34 @@
                 </div>
             </div>
 
-            <div id="adjectives">
-                <p class="label">Adjektiv som beskriver din tjänst/produkt</p>
+            <div>
+                <p class="label">Adjektiv som slutar på 'a'</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective1" type="text" placeholder="ex) snabb, lätt, cool">
+                    <input id="inputAdjective1" size="35" type="text" placeholder="ex) snabba, fina, coola...">
                 </div>
+            </div>
+
+            <div>
+                <p class="label">Adjektiv i superlativ</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective2" type="text" placeholder="ex) snabb, lätt, cool">
+                    <input id="inputAdjective2" size="35" type="text" placeholder="ex) snabbaste, finaste, bästa...">
                 </div>
             </div>
 
             <div>
                 <p class="label">Verb folk ogillar</p>
                 <div class="holderForInput">
-                    <input id="inputVerb1" type="text" placeholder="ex) städa, gå, diska, luras">
+                    <input id="inputVerb1" size="35" type="text" placeholder="ex) städa, gå, diska, bli lurad...">
                 </div>
             </div>
 
             <button id="generateButton" type="button">Skapa pitch</button>
         </div>
 
-        <textarea title="pitch" id="output" rows="7" cols="50"> </textarea>
+        <aside id="rightSide">
+            <p class="label">Pitch:</p>
+            <textarea title="pitch" id="output" rows="15" cols="40" placeholder="Här kommer pitchen skrivas ut"></textarea>
+        </aside>
 
         <!-- end of body -->
 

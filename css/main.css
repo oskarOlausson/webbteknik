@@ -171,22 +171,26 @@ nav a:hover {
 
 #wrapper {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
     padding-bottom: 5rem;
+    max-width: 100rem;
+    margin: auto;
 }
 
 #allTheInputs {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 
 #allTheInputs .label{
     margin: 0;
     padding: 2rem 0 .5rem 0;
-    text-align: center;
+    text-align: left;
 }
 
 #allTheInputs input {
@@ -225,12 +229,6 @@ nav a:hover {
     margin: 0 1.5rem;
 }
 
-#adjectives {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 #generateButton {
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0);
@@ -252,9 +250,12 @@ nav a:hover {
     transition: background-color .15s;
 }
 
+#rightSide .label {
+    margin-bottom: 1rem;
+}
+
 #output {
     max-width: 90%;
-    margin-top: 2rem;
     padding: 1rem .7rem;
 }
 
@@ -264,7 +265,7 @@ nav a:hover {
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 }
 
@@ -272,18 +273,18 @@ nav a:hover {
     background: #086788;
     color: white;
     padding: .5rem 0 .5rem 1rem;
-
-    max-width: 90%;
+    display: inline-block;
+    width: 100%;
 }
 
 .faq .answer {
     margin-left: 4rem;
-    max-width: 80%;
+    width: 80%;
 }
 
 #howToCopy {
     margin-left: 4rem;
-    max-width: 70%;
+    width: 70%;
 }
 
 #howToCopy td {
