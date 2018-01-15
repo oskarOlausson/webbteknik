@@ -179,7 +179,8 @@ nav a:hover {
     align-items: flex-start;
     justify-content: space-around;
     padding-bottom: 5rem;
-    max-width: 100rem;
+    width: 100rem;
+    max-width: 100%;
     margin: auto;
 }
 
