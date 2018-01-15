@@ -187,6 +187,11 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: left;
+    max-width: 100%;
+}
+
+#allTheInputs>div{
+    max-width: 100%;
 }
 
 
@@ -254,12 +259,17 @@ nav a:hover {
     transition: background-color .15s;
 }
 
+#rightSide {
+    max-width: 100%;
+}
+
 #rightSide .label {
     margin-bottom: 1rem;
+    max-width: 100%;
 }
 
 #output {
-    max-width: 90%;
+    max-width: 100%;
     padding: 1rem .7rem;
 }
 
