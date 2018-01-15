@@ -255,6 +255,7 @@ nav a:hover {
 #output {
     max-width: 90%;
     margin-top: 2rem;
+    padding: 1rem .7rem;
 }
 
 /*===== Help-screen (FAQ) =====*/

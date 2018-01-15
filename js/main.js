@@ -6,9 +6,9 @@ const list = ["inputName", "inputSlogan", "inputAdjective1", "inputAdjective2", 
 const pitch = "På €inputName strävar vi efter perfektion. Med vår €inputAdjective1 design så \
 tror vi att vi har skapat den mest €inputAdjective2 tjänsten i världen.\
 Har du någonsin stått inför problemet med att behöva €inputVerb1 i timmar i taget. Med\
-€inputName du behöver inte längre. Vårt team tror på perfektion för oss alla\
+ €inputName s[ du behöver inte längre. Vårt team tror på perfektion för oss alla\
 och vi vill dela den upplevelsen med dig. Så hopp ombord och upplev framtiden\
-med €inputName. €inputSlogan.";
+med €inputName, €inputSlogan.";
 
 const errorClass = "errorWarning";
 

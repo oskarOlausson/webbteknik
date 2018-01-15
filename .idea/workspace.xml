@@ -1,360 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e323dce5-522e-42ee-94a0-2ada599feee9" name="Default" comment="added xml files for">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../AI2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ApjavaProject" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/.idea/CellularAutomata.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/CA.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/RandomString.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/RowToColumnCSV.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/Termites.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/codegolf_1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/align-separate-10.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/align-separate-15.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/align-separate-5.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/medium.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/separate-cohere-10.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/separate-cohere-15.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/separate-cohere-5.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../CellularAutomata/files/separate-cohere.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Computer-Vision" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Emergence" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../EmergenceOld" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Face" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../Hiki" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/ImageStitcher.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Fil 003.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Fil 004.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Fil 005.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/DrawFunctions.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Frame$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Frame.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/FrameConstants.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/ImageRes.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Library.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Part.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Stitcher.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/Test.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/Normal/World.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/bottom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/small.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/out/production/ImageStitcher/top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/Fil 003.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/Fil 004.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/Fil 005.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/bottom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/small.jpeg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/res/top.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/DrawFunctions.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/Frame.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/FrameConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/ImageRes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/Library.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/Part.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/Stitcher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../ImageStitcher/src/Normal/World.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../LDTest" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/artifacts/MyUnitTester_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/codeStyleSettings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/dictionaries/oskar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/OU1.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/artifacts/MyUnitTester_jar/MyUnitTester.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/controller/Controller$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/controller/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/controller/MyUnitTester.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/examples/MyClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/examples/MyInt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/information/ClassOrError.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/information/Model.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/information/Result.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/information/Summary.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/model/TestController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/tests/TestClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/tests/TestClassOrError.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/tests/TestMyClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/tests/TestMyInt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/CellRenderer$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/CellRenderer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/CellType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/GUI$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/GUI$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/GUI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/MyCell.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/MyUnitTester/view/Writer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/TestMurphys.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/controller/Controller$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/controller/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/controller/MyUnitTester.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/examples/MyClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/examples/MyInt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/information/ClassOrError.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/information/Model.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/information/Result.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/information/Summary.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/InstantiatingInterfaceException.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/ListCell.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/MyWorker.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/OutputOrganizer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/Result.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/TestController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/model/Tester.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestClassOrError.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestDoesNotInherit.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestHasNoMethods.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestHasNoNullary.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestIsAbstract.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestMyClass.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/tests/TestMyInt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/CellRenderer$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/CellRenderer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/CellStyleType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/CellType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/GUI$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/GUI$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/GUI$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/GUI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/MyCell.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/production/OU1/view/Writer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/ListCellTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/OutputOrganizerTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/OutputOrganizerTest$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/OutputOrganizerTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/ResultTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/TesterTest$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/TesterTest$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/TesterTest$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/out/test/OU1/model/TesterTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/TestMurphys.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/controller/Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/controller/MyUnitTester.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/examples/MyClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/examples/MyInt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/InstantiatingInterfaceException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/ListCell.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/MyWorker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/OutputOrganizer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/Result.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/model/Tester.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestDoesNotInherit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestHasNoMethods.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestHasNoNullary.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestIsAbstract.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestMyClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/tests/TestMyInt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/view/CellRenderer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/view/CellStyleType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/view/GUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/src/view/Writer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/unitTests/model/ListCellTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/unitTests/model/OutputOrganizerTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/unitTests/model/ResultTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU1/unitTests/model/TesterTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/artifacts/LudumDare_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/LudumDare.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/artifacts/LudumDare_jar/LudumDare.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Attack$CrossHair.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Attack$Dot.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Attack.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Defence$Pipe.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Defence.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/EmptyListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Game.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Investigate$Swapper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Investigate.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Love$Slice.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/Love.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/MiniGames/MiniGameListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Bolt.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Boss.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Computer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Enemy.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Feelings.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Heart.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Link.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/LinkType.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Moves.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Player$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Player$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Player$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Player$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Player.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Shield.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/State.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Modules/Unlock.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/AnimatedText$TimerListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/AnimatedText.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Backend$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Backend$TAdapter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Backend.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Controller$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Functions.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/GUI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/GenericListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Keys.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/MediaPlayer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/MyButton.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Names.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/PositionListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Sounds.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/StartScreen.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/Success.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/TutorialScreen$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/TutorialScreen$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/TutorialScreen$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/TutorialScreen$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/Normal/TutorialScreen.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/actions.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/arrows.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/bolt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/boss.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/bossFaces.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/click.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/computer.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/computer2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/crossHair.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/faces.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/hackArrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/hatred.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/health.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/healthPack.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/heartPuzzle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/intro.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/levelWin.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/lighton.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../OU2/LudumDare/out/production/LudumDare/mainframed.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/level.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/levelEditor.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/both/XmlTag.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/in/TileBuilder.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/in/XmlParser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/ClassNames.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/Controller.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/DrawListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/EmptyListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/FrameConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/GUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/InputAdapter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/PaintMode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/PositionListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/Tile.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/out/XmlWriter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/tiles/LandOn.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/main/java/tiles/Normal.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/test/java/in/TileBuilderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/src/test/java/in/XmlParserTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/both/XmlTag.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/in/TileBuilder.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/in/XmlParser$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/in/XmlParser.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/ClassNames.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/Controller$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/Controller$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/Controller.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/DrawListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/EmptyListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/FrameConstants.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/GUI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/InputAdapter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/PaintMode.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/PositionListener.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/Tile.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/out/XmlWriter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/tiles/LandOn.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/classes/tiles/Normal.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/test-classes/in/TileBuilderTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../levelEditor/target/test-classes/in/XmlParserTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../profilePage/profilePage" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../puzzle/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../puzzle/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../puzzle/.idea/puzzle.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../puzzle/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../puzzle/puzzles.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../pycuda" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/.idea/rows20orLess.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/Path-to-bed.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../rows20orLess/Postman.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../simple-neural-network" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../sublimeprojects/chat-interview.sublime-project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../sublimeprojects/chat-interview.sublime-workspace" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/RegExBig.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/RegExp.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/SemaphoreTest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/Streams.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/threadsafe/GUI$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/threadsafe/GUI.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/threadsafe/InfiniteCounter.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/out/production/tenta/threadsafe/Main.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/RegExBig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/RegExp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/SemaphoreTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/Streams.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/threadsafe/GUI.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/threadsafe/InfiniteCounter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/src/threadsafe/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../tenta/tenta.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../they-learn" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/.idea/copyright/profiles_settings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/out/production/uppgifter/LetterCount.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/out/production/uppgifter/file1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/out/production/uppgifter/file2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/resources/file1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/resources/file2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/src/LetterCount.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../uppgifter/uppgifter.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../walle" />
+    <list default="true" id="e323dce5-522e-42ee-94a0-2ada599feee9" name="Default" comment="small changes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -379,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -418,9 +78,9 @@
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/sites/FAQ.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -462,6 +122,11 @@
             <path>
               <item name="webbteknik" type="b2602c69:ProjectViewProjectNode" />
               <item name="webbteknik" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webbteknik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webbteknik" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -476,6 +141,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -513,12 +179,12 @@
       <workItem from="1515867145721" duration="1400000" />
       <workItem from="1515868568636" duration="1735000" />
       <workItem from="1515937215213" duration="26426000" />
-      <workItem from="1515977865296" duration="800000" />
+      <workItem from="1515977865296" duration="1214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30361000" />
+    <option name="totallyTimeSpent" value="30775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -526,8 +192,9 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18789144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.49582464" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297062" sideWeight="0.50417536" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -550,7 +217,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -830,14 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4522">
-          <caret line="266" column="28" lean-forward="false" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -908,8 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="209" column="21" lean-forward="true" selection-start-line="209" selection-start-column="21" selection-end-line="209" selection-end-column="21" />
           <folding />
         </state>
       </provider>
