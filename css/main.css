@@ -117,7 +117,7 @@ header {
 }
 
 h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     margin-bottom: 0;
     padding-bottom: 0;
     margin-top: 1.5rem;
@@ -137,6 +137,9 @@ h2 {
     margin-top: 0;
     color: rgba(255, 255, 255, 100);
     font-weight: lighter;
+    font-size: 2.5rem;
+    text-wrap: normal;
+    text-align: center;
 }
 
 nav {
@@ -173,7 +176,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     padding-bottom: 5rem;
     max-width: 100rem;
@@ -237,6 +240,7 @@ nav a:hover {
     padding: .8rem 2rem .8rem 2rem;
     margin: 1rem;
     color: black;
+    align-self: center;
 }
 
 
@@ -275,9 +279,12 @@ nav a:hover {
     padding: .5rem 0 .5rem 1rem;
     display: inline-block;
     width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 .faq .answer {
+    margin-top: 0;
+    margin-bottom: 2rem;
     margin-left: 4rem;
     width: 80%;
 }
