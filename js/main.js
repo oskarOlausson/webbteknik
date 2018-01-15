@@ -4,7 +4,7 @@
 const list = ["inputName", "inputSlogan", "inputAdjective1", "inputAdjective2", "inputVerb1"];
 
 const pitch = "På €inputName strävar vi efter perfektion. Med vår €inputAdjective1 design så \
-tror vi att vi har skapat den mest €inputAdjective2a tjänsten i världen.\
+tror vi att vi har skapat den mest €inputAdjective2 tjänsten i världen.\
 Har du någonsin stått inför problemet med att behöva €inputVerb1 i timmar i taget. Med\
 €inputName du behöver inte längre. Vårt team tror på perfektion för oss alla\
 och vi vill dela den upplevelsen med dig. Så hopp ombord och upplev framtiden\
