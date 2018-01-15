@@ -188,6 +188,7 @@ nav a:hover {
     text-align: center;
     word-wrap: normal;
     flex-grow: 0;
+    max-width: 90%;
 }
 
 #allTheInputs {
