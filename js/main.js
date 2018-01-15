@@ -64,7 +64,7 @@ function addFailedMarker(element) {
 }
 
 
-$("#generateButton").click(function () {
+$("#generateButton").on('click', function () {
 
     var map = {};
     var failed = false;
