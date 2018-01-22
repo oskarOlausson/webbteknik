@@ -42,38 +42,38 @@
 
             <!--The empty div is so flex-box works correctly-->
             <div>
-                <p class="label"> Namn på tjänsten</p>
+                <p id="nameLabel" class="label"> Namn på tjänsten</p>
                 <div class="holderForInput" >
-                    <input id="inputName" size="35" type="text" title="Skriv namn på tjänsten" placeholder="ex) PanicPitch">
+                    <input id="inputName" size="35" type="text" aria-describedby="nameLabel" placeholder="ex) PanicPitch">
                 </div>
             </div>
 
             <!--The empty div is so flex-box works correctly-->
             <div>
-                <p class="label">Slogan</p>
+                <p id="sloganLabel" class="label">Slogan</p>
                 <div class="holderForInput">
-                    <input id="inputSlogan" size="35" type="text" title="Skriv slogan för tjänsten" placeholder="ex) För en bättre värld">
+                    <input id="inputSlogan" size="35" type="text" aria-describedby="sloganLabel" placeholder="ex) För en bättre värld">
                 </div>
             </div>
 
             <div>
-                <p class="label">Adjektiv som slutar på 'a'</p>
+                <p id="adj1" class="label">Adjektiv som slutar på 'a'</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective1" size="35" type="text" title="Skriv ett adjektiv som slutar på bokstaven a" placeholder="ex) snabba, fina, coola...">
+                    <input id="inputAdjective1" size="35" type="text" aria-describedby="adj1" placeholder="ex) snabba, fina, coola...">
                 </div>
             </div>
 
             <div>
-                <p class="label">Adjektiv i superlativ</p>
+                <p id="adj2" class="label">Adjektiv i superlativ</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective2" size="35" type="text" title="Skriv ett adjektiv i superlativ, till exempel bästa eller rödaste" placeholder="ex) snabbaste, finaste, bästa...">
+                    <input id="inputAdjective2" size="35" type="text" aria-describedby="adj2" placeholder="ex) snabbaste, finaste, bästa...">
                 </div>
             </div>
 
             <div>
-                <p class="label">Verb folk ogillar</p>
+                <p id="verb1" class="label">Verb folk ogillar</p>
                 <div class="holderForInput">
-                    <input id="inputVerb1" size="35" type="text" title="Skriv verb som folk ogillar att göra" placeholder="ex) städa, gå, diska, bli lurad...">
+                    <input id="inputVerb1" size="35" type="text" aria-describedby="verb1" placeholder="ex) städa, gå, diska, bli lurad...">
                 </div>
             </div>
 

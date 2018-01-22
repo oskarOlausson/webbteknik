@@ -307,6 +307,18 @@ nav a:hover {
     width: 80%;
 }
 
+.faq img.answer {
+    width: auto;
+    min-width: 5rem;
+    max-width: 90%;
+}
+
+.faq iframe.answer {
+    width: 70vw;
+    height: 41vw;
+    min-width: 320px;
+}
+
 #howToCopy {
     margin-left: 4rem;
     width: 70%;
