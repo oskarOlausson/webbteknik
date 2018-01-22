@@ -27,6 +27,9 @@
         </nav>
     </header>
 
+
+
+
     <div id="wrapper">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -38,7 +41,8 @@
             Fyll i fälten nedanför och klicka på skapa pitch så genererar vi ett pitch åt dig
         </p>
 
-        <div id="allTheInputs">
+
+        <form id="allTheInputs">
 
             <!--The empty div is so flex-box works correctly-->
             <div>
@@ -57,28 +61,28 @@
             </div>
 
             <div>
-                <p id="adj1" class="label">Adjektiv som slutar på 'a'</p>
+                <p id="adj1" class="label">Ett adjektiv som slutar på 'a'</p>
                 <div class="holderForInput">
                     <input id="inputAdjective1" size="35" type="text" aria-describedby="adj1" placeholder="ex) snabba, fina, coola...">
                 </div>
             </div>
 
             <div>
-                <p id="adj2" class="label">Adjektiv i superlativ</p>
+                <p id="adj2" class="label">Ett adjektiv i superlativ</p>
                 <div class="holderForInput">
                     <input id="inputAdjective2" size="35" type="text" aria-describedby="adj2" placeholder="ex) snabbaste, finaste, bästa...">
                 </div>
             </div>
 
             <div>
-                <p id="verb1" class="label">Verb folk ogillar</p>
+                <p id="verb1" class="label">Ett verb folk ogillar att göra</p>
                 <div class="holderForInput">
                     <input id="inputVerb1" size="35" type="text" aria-describedby="verb1" placeholder="ex) städa, gå, diska, bli lurad...">
                 </div>
             </div>
 
             <button id="generateButton" type="button" title="Tryck enter för att generera pitch">Skapa pitch</button>
-        </div>
+        </form>
 
         <aside id="rightSide">
             <p class="label">Pitch:</p>

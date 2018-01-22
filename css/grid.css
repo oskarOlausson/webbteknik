@@ -72,16 +72,6 @@ textarea {
     resize: vertical;
 }
 
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #000000;
-    color: #000;
-    padding: 0.2em 0;
-}
 
 /* ==========================================================================
    Author's custom styles
@@ -161,11 +151,8 @@ nav a:hover {
 }
 
 #wrapper {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding-bottom: 5rem;
     width: 100rem;
     max-width: 100%;
@@ -175,14 +162,11 @@ nav a:hover {
 #description {
     text-align: center;
     word-wrap: normal;
-    flex-grow: 0;
     max-width: 90%;
 }
 
 #allTheInputs {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+    display: grid;
     max-width: 100%;
 }
 
@@ -219,7 +203,7 @@ nav a:hover {
 }
 
 .holderForInput {
-    display: flex;
+    display: grid;
     flex-direction: row;
 }
 
@@ -241,7 +225,6 @@ nav a:hover {
     padding: .8rem 2rem .8rem 2rem;
     margin: 1rem;
     color: black;
-    align-self: center;
 }
 
 
@@ -273,10 +256,7 @@ nav a:hover {
 
 .faq {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
+    display: grid;
 }
 
 .faq .question {
