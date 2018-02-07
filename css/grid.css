@@ -1,9 +1,19 @@
+/*! HTML5 Boilerplate v6.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -72,234 +82,261 @@ textarea {
     resize: vertical;
 }
 
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-size: 2rem;
-    background: #f9f9f9;
-}
-
 header {
     background: #024862;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
-    width: 100%;
 }
 
 h1 {
-    font-size: 6rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-top: 1.5rem;
-    color: #FFF1D0;
-    font-weight: 300;
-    border: 0;
-    display: inline;
+    font-size: 6rem !important;
+    padding-bottom: 0 !important;
+    margin: 1.5rem auto auto auto !important;
+    color: #FFF1D0 !important;
+    font-weight: 300 !important;
+    border: 0 !important;
+    display: inline !important;
+    text-align: center !important;
+    align-self: center !important;
 }
 
-.panic {
+h1.strong {
     color: #F3CA40;
     font-weight: bold;
+
 }
 
 h2 {
-    padding-top: 0;
-    margin-top: 0;
     color: rgba(255, 255, 255, 100);
     font-weight: lighter;
     font-size: 2.5rem;
     text-wrap: normal;
     text-align: center;
-}
-
-nav {
-    background: #ff5f5d;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-nav .selectedNav {
-    color: white;
-    border-bottom: solid white .2rem;
-    margin-bottom: .6rem;
-}
-
-nav a {
-    color: rgba(255, 255, 255, 0.58);
-    font-size: 2.2rem;
-    text-decoration: none;
-    padding: .8rem 2rem 0 2rem;
-    margin-bottom: .8rem;
-}
-
-nav a:hover {
-    color: rgba(0, 0, 0, 0.49);
-    text-decoration:none;
-    cursor:pointer;
-}
-
-#wrapper {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding-bottom: 5rem;
-    width: 100rem;
-    max-width: 100%;
-    margin: auto;
-}
-
-#description {
-    text-align: center;
-    word-wrap: normal;
-    max-width: 90%;
-}
-
-#allTheInputs {
-    display: grid;
-    max-width: 100%;
-}
-
-#allTheInputs>div{
-    max-width: 100%;
-}
-
-
-#allTheInputs .label{
     margin: 0;
-    padding: 2rem 0 .5rem 0;
-    text-align: left;
 }
 
-#allTheInputs input {
-    border: none;
-    border-bottom: #36377a solid .1rem;
-
-    margin-bottom: 2rem;
-    box-sizing: border-box;
-    background: inherit;
-    padding: 0 1rem;
-}
-
-
-#allTheInputs input:focus {
-    border-bottom: #36377a solid .3rem;
-    margin-bottom: 1.8rem;
-    outline: none;
-
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.holderForInput {
+.all {
     display: grid;
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em;
+    padding: 1.2em;
 }
 
-.errorWarning {
-    background-color: #DD1C1A;
-    color: white;
-    border-radius: 100%;
-    text-align: center;
-    width: 3rem;
-    height: 3rem;
-    margin: 0 1.5rem;
+.myForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em;
+    padding: 1.2em;
 }
 
-#generateButton {
-    border-radius: 1rem;
-    background-color: rgba(0, 0, 0, 0);
-    /*border: .2rem solid #F0C808;*/
-    border: .2rem solid #119DA4;
-    padding: .8rem 2rem .8rem 2rem;
-    margin: 1rem;
-    color: black;
-}
-
-
-#generateButton:hover {
-    color:white;
-    background-color: #119DA4;
-    -webkit-transition: background-color .15s;
-    -moz-transition: background-color .15s;
-    -ms-transition: background-color .15s;
-    -o-transition: background-color .15s;
-    transition: background-color .15s;
-}
-
-#rightSide {
-    max-width: 100%;
-}
-
-#rightSide .label {
-    margin-bottom: 1rem;
-    max-width: 100%;
+.myForm > input,
+.myForm > textarea,
+.all > button {
+    grid-row: auto;
 }
 
 #output {
-    max-width: 100%;
-    padding: 1rem .7rem;
+    grid-row-start: row1-start;
+    grid-row-end: span 20; /*Big value so it spans all rows*/
 }
 
-/*===== Help-screen (FAQ) =====*/
 
-.faq {
-    list-style: none;
-    display: grid;
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
 }
 
-.faq .question {
-    background: #086788;
-    color: white;
-    padding: .5rem 0 .5rem 1rem;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 1.5rem;
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
-.faq .answer {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
-    width: 80%;
-}
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
 
-.faq img.answer {
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    -webkit-clip-path: none;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
     width: auto;
-    min-width: 5rem;
-    max-width: 90%;
+    white-space: inherit;
 }
 
-.faq iframe.answer {
-    width: 70vw;
-    height: 41vw;
-    min-width: 320px;
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
 }
 
-#howToCopy {
-    margin-left: 4rem;
-    width: 70%;
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
-#howToCopy td {
-    background: #07A0C3;
-    color: white;
-    padding: 1rem 2rem;
+.clearfix:after {
+    clear: both;
 }
 
-#howToCopy .left {
-    text-align: center;
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
 }
 
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
 
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

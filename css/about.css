@@ -1,0 +1,12 @@
+
+
+#settingsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem {
+    flex-grow: 0;
+}
