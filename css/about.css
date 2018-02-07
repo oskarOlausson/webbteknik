@@ -1,12 +1,26 @@
 
 
-#settingsWrapper {
+.verticalLayout {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.flexItem {
-    flex-grow: 0;
+#profilePic {
+    max-width: 30rem;
+}
+
+
+#aboutMe {
+    max-width: 40rem;
+}
+
+#videoTitle {
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+}
+
+iframe {
+    margin-bottom: 3rem;
 }

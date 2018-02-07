@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/common.css">
     </head>
     <body>
 
@@ -24,11 +25,10 @@
         <nav>
             <a href="#" class="selectedNav">Pitch</a>
             <a href="sites/FAQ.html">Hjälp</a>
+            <a href="sites/Settings.html">Inställningar</a>
+            <a href="sites/About.html">Om</a>
         </nav>
     </header>
-
-
-
 
     <div id="wrapper">
         <!--[if lte IE 9]>
@@ -63,39 +63,40 @@
             <div>
                 <p id="adj1" class="label">Ett adjektiv som slutar på 'a'</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective1" size="35" type="text" aria-describedby="adj1" placeholder="ex) snabba, fina, coola...">
+                    <input id="inputAdjective1" size="35" type="text" aria-describedby="adj1" placeholder="ex) snabba eller fina">
                 </div>
             </div>
 
             <div>
                 <p id="adj2" class="label">Ett adjektiv i superlativ</p>
                 <div class="holderForInput">
-                    <input id="inputAdjective2" size="35" type="text" aria-describedby="adj2" placeholder="ex) snabbaste, finaste, bästa...">
+                    <input id="inputAdjective2" size="35" type="text" aria-describedby="adj2" placeholder="ex) coolaste eller tryggaste">
                 </div>
             </div>
 
             <div>
                 <p id="verb1" class="label">Ett verb folk ogillar att göra</p>
                 <div class="holderForInput">
-                    <input id="inputVerb1" size="35" type="text" aria-describedby="verb1" placeholder="ex) städa, gå, diska, bli lurad...">
+                    <input id="inputVerb1" size="35" type="text" aria-describedby="verb1" placeholder="ex) städa eller bli lurad">
                 </div>
             </div>
-
-            <button id="generateButton" type="button" title="Tryck enter för att generera pitch">Skapa pitch</button>
         </form>
 
         <aside id="rightSide">
             <p class="label">Pitch:</p>
-            <textarea title="pitch" id="output" rows="15" cols="40" placeholder="Här kommer pitchen skrivas ut"></textarea>
+            <div id="output"></div>
         </aside>
 
-        <!-- end of body -->
 
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
     </div>
+
+    <button id="generateButton" type="button" title="Klicka för att generera pitch">Skapa pitch</button>
+
+    <!-- end of body -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
     </body>
 </html>

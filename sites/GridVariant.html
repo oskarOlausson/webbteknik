@@ -1,10 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PP - Home (using css-grid)</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/grid.css">
 </head>
+
 <body>
-$END$
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<header>
+    <h1><span class="panic">PANIC</span>PITCH</h1>
+    <h2>Skapa ett elevator-pitch på nolltid</h2>
+
+    <nav>
+        <a href="../index.html">Pitch</a>
+        <a href="FAQ.html">Hjälp</a>
+        <a href="Settings.html">Inställningar</a>
+        <a href="About.html">Om</a>
+    </nav>
+</header>
+
+<div id="content">
+
+    <p id="description">
+        Fyll i fälten nedanför och klicka på skapa pitch så genererar vi ett pitch åt dig
+    </p>
+
+    <div id="all">
+        <form id="myForm">
+            <div class="input-field">
+                <label for="inputName">Namn på tjänsten</label>
+                <input id="inputName" type="text" class="validate" placeholder="ex) PanicPitch">
+            </div>
+
+            <div class="input-field">
+                <label for="inputSlogan">Slogan för tjänsten</label>
+                <input id="inputSlogan" type="text" class="validate" placeholder="ex) För en bättre värld">
+            </div>
+
+            <div class="input-field">
+                <label for="inputAdjective1">Adjektiv som slutar på 'a'</label>
+                <input id="inputAdjective1" type="text" class="validate"placeholder="ex) snabba eller fina">
+            </div>
+
+            <div class="input-field">
+                <label for="inputAdjective2">Adjektiv i superlativ, ex bästa</label>
+                <input id="inputAdjective2" type="text" class="validate" placeholder="ex) coolaste eller tryggaste">
+            </div>
+
+            <div class="input-field">
+                <label for="inputVerb1">Ett verb folk ogillar att göra</label>
+                <input id="inputVerb1" size="35" type="text" aria-describedby="verb1" placeholder="ex) städa eller bli lurad">
+            </div>
+        </form>
+
+        <button id="generateButton" type="button" title="Klicka för att generera pitch">Skapa pitch</button>
+
+        <div id="outputRight">
+            <div type="text">Pitch:</div>
+            <div id="output"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- end of html -->
+
+<script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+
+
 </body>
 </html>

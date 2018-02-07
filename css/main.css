@@ -1,10 +1,4 @@
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: 'Roboto', sans-serif;
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -87,77 +81,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html {
-    font-size: 62.5%;
-}
 
-body {
-    font-size: 2rem;
-    background: #f9f9f9;
-}
 
-header {
-    background: #024862;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2rem;
-    width: 100%;
-}
-
-h1 {
-    font-size: 6rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    margin-top: 1.5rem;
-    color: #FFF1D0;
-    font-weight: 300;
-    border: 0;
-    display: inline;
-}
-
-.panic {
-    color: #F3CA40;
-    font-weight: bold;
-}
-
-h2 {
-    padding-top: 0;
-    margin-top: 0;
-    color: rgba(255, 255, 255, 100);
-    font-weight: lighter;
-    font-size: 2.5rem;
-    text-wrap: normal;
-    text-align: center;
-}
-
-nav {
-    background: #ff5f5d;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-nav .selectedNav {
-    color: white;
-    border-bottom: solid white .2rem;
-    margin-bottom: .6rem;
-}
-
-nav a {
-    color: rgba(255, 255, 255, 0.58);
-    font-size: 2.2rem;
-    text-decoration: none;
-    padding: .8rem 2rem 0 2rem;
-    margin-bottom: .8rem;
-}
-
-nav a:hover {
-    color: rgba(0, 0, 0, 0.49);
-    text-decoration:none;
-    cursor:pointer;
+#profilePic {
+    border-radius: 100%;
+    width: 30%;
+    height: auto;
 }
 
 #wrapper {
@@ -190,7 +119,6 @@ nav a:hover {
     max-width: 100%;
 }
 
-
 #allTheInputs .label{
     margin: 0;
     padding: 2rem 0 .5rem 0;
@@ -215,7 +143,6 @@ nav a:hover {
 
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
 }
 
 .holderForInput {
@@ -244,13 +171,11 @@ nav a:hover {
     align-self: center;
 }
 
-
 #generateButton:hover {
     color:white;
     background-color: #119DA4;
     -webkit-transition: background-color .15s;
     -moz-transition: background-color .15s;
-    -ms-transition: background-color .15s;
     -o-transition: background-color .15s;
     transition: background-color .15s;
 }
@@ -267,59 +192,16 @@ nav a:hover {
 #output {
     max-width: 100%;
     padding: 1rem .7rem;
+    background-color: #ffffff;
+    width: 40rem;
+    min-height: 40rem;
 }
 
-/*===== Help-screen (FAQ) =====*/
 
-.faq {
-    list-style: none;
+body {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
-}
-
-.faq .question {
-    background: #086788;
-    color: white;
-    padding: .5rem 0 .5rem 1rem;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 1.5rem;
-}
-
-.faq .answer {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    margin-left: 4rem;
-    width: 80%;
-}
-
-.faq img.answer {
-    width: auto;
-    min-width: 5rem;
-    max-width: 90%;
-}
-
-.faq iframe.answer {
-    width: 70vw;
-    height: 41vw;
-    min-width: 320px;
-}
-
-#howToCopy {
-    margin-left: 4rem;
-    width: 70%;
-}
-
-#howToCopy td {
-    background: #07A0C3;
-    color: white;
-    padding: 1rem 2rem;
-}
-
-#howToCopy .left {
-    text-align: center;
 }
 
 

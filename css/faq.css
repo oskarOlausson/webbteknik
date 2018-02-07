@@ -1,0 +1,52 @@
+/*===== Help-screen (FAQ) =====*/
+
+.faq {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.faq .question {
+    background: #086788;
+    color: white;
+    padding: .5rem 0 .5rem 1rem;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.faq .answer {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    width: 80%;
+}
+
+.faq img.answer {
+    width: auto;
+    min-width: 5rem;
+    max-width: 90%;
+}
+
+.faq iframe.answer {
+    width: 70vw;
+    height: 41vw;
+    min-width: 320px;
+}
+
+#howToCopy {
+    margin-left: 4rem;
+    width: 70%;
+}
+
+#howToCopy td {
+    background: #07A0C3;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+#howToCopy .left {
+    text-align: center;
+}

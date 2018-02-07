@@ -14,12 +14,28 @@ const errorClass = "errorWarning";
 
 /*This code removes errorWarnings when people click it*/
 $(document).ready(function () {
+
+    list.forEach(function (value) {
+        if (typeof(sessionStorage[value]) != "undefined") {
+            document.getElementById(value).value = sessionStorage[value];
+        }
+    })
+
+
    list.forEach(function (value) {
-       document.getElementById(value).addEventListener("focus", function(ev) {
+       var inputField = document.getElementById(value);
+
+       inputField.addEventListener("focus", function(ev) {
            removeFailedMarker(this);
+       });
+
+       inputField.addEventListener('input', function() {
+           sessionStorage[value] = $(this).val(); // get the current value of the input field.
        });
    });
 });
+
+
 
 function fill(replaceMap) {
 

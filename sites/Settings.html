@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>PP - FAQ</title>
+    <title>PP - Inställningar</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/settings.css">
 </head>
 <body>
     <header>
@@ -22,64 +23,33 @@
 
         <nav>
             <a href="../index.html">Pitch</a>
-            <a href="#" class="selectedNav">Hjälp</a>
+            <a href="FAQ.html">Hjälp</a>
+            <a href="#" class="selectedNav">Inställningar</a>
+            <a href="About.html">Om</a>
         </nav>
     </header>
-    <div id="wrapper">
-        <div class="faq">
 
-            <p class="question">Vad är en elevator-pitch?</p>
-            <p class="answer">Det är ett kort sammanfattning att din tjänst som hjälper till att sälja
-            produkten. Namnet elevator-pitch kommer från att det ska vara så kort så man hinner säga
-            det till någon medans man åker hiss. Cirka 30 sek till en minut.</p>
+    <div id="settingsWrapper">
 
-
-            <p class="question">Hur sparar jag mitt pitch?</p>
-            <p class="answer">Kopiera det, markera texten och använd ditt operativsystems kopieringsfunktion</p>
-            <table id="howToCopy">
-                <tr>
-                    <td class="left">Windows</td>
-                    <td>Högerklicka och välj kopiera ellen håll inne Ctrl-knappen och tryck på c.</td>
-                </tr>
-
-                <tr>
-                    <td class="left">Mac OS</td>
-                    <td>Högerklicka och välj kopiera ellen håll inne Cmd-knappen eller och tryck på c.</td>
-                </tr>
-
-                <tr>
-                    <td class="left">Linux</td>
-                    <td>Om du använder Linux så kan du redan det här, har säkert något med terminalen att göra</td>
-                </tr>
-
-                <tr>
-                    <td class="left">Smartphone</td>
-                    <td>På de flesta smartphones så håller man inne på texten och följer intruktionerna</td>
-                </tr>
-            </table>
-
-            <p class="question">Kan man ändra längd på den genererade pitchen?</p>
-            <p class="answer">Nej</p>
-
-            <p class="question">Min pitch är jättedålig?</p>
-            <p class="answer">Det är en mad-lib stil som pitchen genereras med, det finns alltså ingen AI
-            bakom som förstår meningen med pitchen</p>
-
-            <p class="question">Finns det något sätt att göra pitchen mer personlig</p>
-            <p class="answer">Skriv den själv, en bra pitch kommer från (det metaforiska) hjärtat</p>
-
-            <p class="question">Har du någon bild på hemsidan</p>
-            <p class="answer">Ja, klicka <a href="https://www.w3schools.com/tags/tag_img.asp">här</a> om du vill veta hur man lägger till bilder på en hemsida. </p>
-            <img class="answer" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Carl_Bildt_under_nationaldagsfirande_vid_Skansen_2009.jpg/220px-Carl_Bildt_under_nationaldagsfirande_vid_Skansen_2009.jpg" alt="Bild på Bildt (ordvits)"/>
-
-            <p class="question">Varför har du en bild på Carl Bildt?</p>
-            <p class="answer">Humorn ligger i att Carls efternamn är likt ordet bild. Se länk för konceptet <a href="https://en.wikipedia.org/wiki/Homonym">Homonym</a></p>
-
-            <p class="question"><strong>Vem är Carl Bildt ens!</strong></p>
-            <p class="answer">En svensk politiker som var stadsminister från 1991-1994. Här är ett tal han höll när han blev invald</p>
-            <iframe class="answer" width="640" height="360" src="https://www.youtube.com/embed/oW7hnrEW6k0" allowfullscreen></iframe>
-
+        <div class="child">
+            <p>Hur långt vill du att de generade pitchet ska bli?</p>
+            <form id="settings">
+                <input type="radio" name="length" value="Kort" checked> Kort<br>
+                <input type="radio" name="length" value="Långt"> Långt<br>
+            </form>
         </div>
+
+        <div class="child">
+            <p><a href="GridVariant.html">Testa css-gridvarianten av hemsidan</a></p>
+        </div>
+
+        <ul>
+            <li>Det</li>
+            <li>här</li>
+            <li>är</li>
+            <li>en</li>
+            <li>lista</li>
+        </ul>
     </div>
 </body>
 </html>
