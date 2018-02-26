@@ -1,5 +1,5 @@
 
-
+/*This codes animates a link*/
 var color = '#ee5244';
 
 var regularCss = {
@@ -10,6 +10,9 @@ var regularCss = {
     };
 
 
+/*the following functions are being called from the element in the html*/
+
+//called onload
 function loadMe(element) {
     $(element).css(regularCss);
 }

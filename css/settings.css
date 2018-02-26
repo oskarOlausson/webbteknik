@@ -61,10 +61,13 @@ canvas {
     width: 10rem;
     height: 10rem;
     background-color: #222222;
+    color: white;
+    text-align: center;
 }
 
-
-
+#bottom{
+    height: 5rem;
+}
 
 .panel {
     border-top: 2px solid #9799a7;
