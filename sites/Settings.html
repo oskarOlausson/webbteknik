@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>PP - Inställningar</title>
+    <title>PP - FunHouse</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,8 +15,14 @@
     <link rel="stylesheet" type="text/css" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" type="text/css" href="../css/settings.css">
+    <link rel="stylesheet" type="text/css" href="../js/vendor/jquery-ui-1.12.1/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../js/vendor/jquery-ui-1.12.1/jquery-ui.structure.css">
+    <link rel="stylesheet" type="text/css" href="../js/vendor/jquery-ui-1.12.1/jquery-ui.structure.css">
+    <script src="../js/animation.js"></script>
+
+
 </head>
-<body>
+<body onload="init();">
     <header>
         <h1><span class="panic">PANIC</span>PITCH</h1>
         <h2>Skapa ett elevator-pitch på nolltid</h2>
@@ -24,7 +30,7 @@
         <nav>
             <a href="../index.html">Pitch</a>
             <a href="FAQ.html">Hjälp</a>
-            <a href="#" class="selectedNav">Inställningar</a>
+            <a href="#" class="selectedNav">Javascriptlabb</a>
             <a href="About.html">Om</a>
         </nav>
     </header>
@@ -33,28 +39,66 @@
 
         <div class="child">
             <p>Hur långt vill du att de generade pitchet ska bli? (OBS! dessa fungerar ej i nuläget)</p>
-            <form id="settings">
-                <input type="radio" name="length" value="Kort" checked> Kort<br>
-                <input type="radio" name="length" value="Långt"> Långt<br>
-            </form>
+
         </div>
 
-        <div class="child">
-            <p><a href="GridVariant.html">Testa css-gridvarianten av hemsidan</a></p>
+        <div class="panel">
+            <div class="panel-stage">
+                <div>
+                    <form id="settings">
+                        <input type="radio" name="length" value="Kort" checked> Kort<br>
+                        <input type="radio" name="length" value="Långt"> Långt<br>
+                    </form>
+                </div>
+            </div>
+            <a href="#" class="panel-tab">Se alternativ<span>&#9660;</span></a>
         </div>
 
+
         <div class="child">
-            <p><a href="https://oskarolausson.github.io/elmWebb/">Testa elm-versionen av hemsidan</a> (går till extern länk)</p>
+            <p><a href="GridVariant.html" onload="loadMe(this)" onmouseenter="animateOn(this)" onmouseleave="animateOff(this)" id="gridLink">Testa css-gridvarianten av hemsidan</a></p>
         </div>
+
+
+        <div class="child">
+            <p><a href="https://oskarolausson.github.io/elmWebb/" id="elmLink">Testa elm-versionen av hemsidan</a> (går till extern länk)</p>
+        </div>
+
+        <iframe hidden id="linkImage" scrolling="no" src="https://oskarolausson.github.io/webbteknik/"></iframe>
 
 
         <ul>
-            <li>Det</li>
-            <li>här</li>
-            <li>är</li>
-            <li>en</li>
+            <li>Det här</li>
+            <li>är en</li>
             <li>lista</li>
         </ul>
+
+
+        <p id ="text7"> Klicka på mig så blir får jag .7 i opacitet</p>
+        <p id = "text3"> Klicka på mig så blir får jag .3 i opacitet</p>
+
+        <canvas id="myCanvas">
+            Oops, din browser kan inte visa en canvas, det var bara en roterande fyrkant som du missade.
+        </canvas>
+
+        <div id="dragger" class="ui-widget-content">
+            <p>Jag går att dra runt</p>
+        </div>
+
+        <div id="dropZone">
+            Dra den hit
+        </div>
+
     </div>
+
+    <!-- end of body-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="../js/vendor/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="../js/settings.js"></script>
+    <script src="../js/canvasStuff.js"></script>
+    <script src="../js/vendor/jquery-color.js"></script>
 </body>
 </html>

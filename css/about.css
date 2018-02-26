@@ -1,5 +1,7 @@
 
 
+
+
 .verticalLayout {
     display: flex;
     flex-direction: column;
@@ -23,4 +25,25 @@
 
 iframe {
     margin-bottom: 3rem;
+}
+
+
+button {
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    /*border: .2rem solid #F0C808;*/
+    border: .2rem solid #119DA4;
+    padding: .8rem 2rem .8rem 2rem;
+    margin: 1rem;
+    color: black;
+    align-self: center;
+}
+
+button:hover {
+    color:white;
+    background-color: #119DA4;
+    -webkit-transition: background-color .15s;
+    -moz-transition: background-color .15s;
+    -o-transition: background-color .15s;
+    transition: background-color .15s;
 }

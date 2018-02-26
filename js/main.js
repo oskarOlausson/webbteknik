@@ -33,6 +33,7 @@ $(document).ready(function () {
            sessionStorage[value] = $(this).val(); // get the current value of the input field.
        });
    });
+
 });
 
 
@@ -101,8 +102,13 @@ $("#generateButton").on('click', function () {
 
     if (!failed) {
         document.getElementById("output").innerText = fill(map);
+        $("#downloadButton").fadeIn();
     }
 });
+
+
+
+
 
 
 

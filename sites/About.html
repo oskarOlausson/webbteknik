@@ -25,21 +25,33 @@
         <nav>
             <a href="../index.html">Pitch</a>
             <a href="FAQ.html">Hjälp</a>
-            <a href="Settings.html">Inställningar</a>
+            <a href="Settings.html">Javascriptlabb</a>
             <a href="#" class="selectedNav">Om</a>
         </nav>
     </header>
 
     <div class="verticalLayout">
 
-        <img id="profilePic" src="https://oskarolausson.github.io/profilePage/static/img/meSquare.jpg" alt="Bild på skaparen av hemsidan, snygg pojk."/>
-        <p id="aboutMe">Den här sidan skapades av mig (Oskar Olausson) som en del av kursen webbteknik.
-                Om du vill veta mer om mig så kan du klicka dig vidare till <a href="https://oskarolausson.github.io/profilePage/">min profilsida</a>.</p>
+        <div id="aboutMeContainer" class="verticalLayout">
+            <img id="profilePic" src="https://oskarolausson.github.io/profilePage/static/img/meSquare.jpg" alt="Bild på skaparen av hemsidan, snygg pojk."/>
+            <p id="aboutMe">
+                Den här sidan skapades av mig (Oskar Olausson) som en del av kursen webbteknik.
+                Om du vill veta mer om mig så kan du klicka dig vidare till <a href="https://oskarolausson.github.io/profilePage/">min profilsida</a>.
+            Om du vill veta mindre, klicka på knappen nedan.</p>
+        </div>
 
-        <p id="videoTitle"><strong>Vem är Carl Bildt?</strong></p>
-        <p class="answer">En svensk politiker som var stadsminister från 1991-1994. Här är ett tal han höll när han blev invald</p>
-        <iframe class="answer" width="640" height="360" src="https://www.youtube.com/embed/oW7hnrEW6k0" allowfullscreen></iframe>
+        <button id="toggler" onClick="toggle()">Dölj</button>
+
+        <div class="verticalLayout">
+            <p id="videoTitle"><strong>Vem är Carl Bildt?</strong></p>
+            <p class="answer">En svensk politiker som var stadsminister från 1991-1994. Här är ett tal han höll när han blev invald</p>
+            <iframe class="answer" width="640" height="360" src="https://www.youtube.com/embed/oW7hnrEW6k0" allowfullscreen></iframe>
+        </div>
     </div>
 
+    <!-- end of body-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="../js/about.js"></script>
 </body>
 </html>

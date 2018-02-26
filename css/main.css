@@ -160,7 +160,7 @@ main {
     margin: 0 1.5rem;
 }
 
-#generateButton {
+button {
     border-radius: 1rem;
     background-color: rgba(0, 0, 0, 0);
     /*border: .2rem solid #F0C808;*/
@@ -171,7 +171,7 @@ main {
     align-self: center;
 }
 
-#generateButton:hover {
+button:hover {
     color:white;
     background-color: #119DA4;
     -webkit-transition: background-color .15s;
@@ -182,6 +182,9 @@ main {
 
 #rightSide {
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #rightSide .label {

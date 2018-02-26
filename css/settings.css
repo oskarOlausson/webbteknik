@@ -10,3 +10,93 @@
 .flexItem {
     flex-grow: 0;
 }
+
+#gridLink {
+    text-decoration: none;
+    border-bottom: .1rem solid;
+}
+
+
+
+
+iframe {
+    /* Set the width of the iframe the size you want to transform it FROM */
+    width: 1108px;
+    height: 710px;
+    /* apply the transform */
+    -webkit-transform:scale(0.25);
+    -moz-transform:scale(0.25);
+    -o-transform:scale(0.25);
+    transform:scale(0.25);
+
+    -moz-transform-origin: top left;
+    -webkit-transform-origin: top left;
+    -o-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+
+    /* position it, as if it was the original size */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+iframe {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+canvas {
+    border: .1rem solid black;
+    margin-bottom: 3rem;
+}
+
+#dragger {
+    cursor: move;
+}
+
+#dropZone {
+    width: 10rem;
+    height: 10rem;
+    background-color: #222222;
+}
+
+
+
+
+.panel {
+    border-top: 2px solid #9799a7;
+}
+.panel-stage {
+    border-radius: 0 0 .6rem .6rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+    display: none;
+    height: 8rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.panel-tab {
+    background: linear-gradient(#fff, #f4f5f4);
+    border: 1px solid #dedede;
+    border-top: 0;
+    border-radius: 0 0 4px 4px;
+    color: #0087cc;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: .5rem 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 80rem;
+}
+.panel-tab:hover {
+    color: #ff7b29;
+}
+.panel-tab span {
+    font-size: 9px;
+    padding-left: 2px;
+}

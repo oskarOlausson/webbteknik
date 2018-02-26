@@ -25,7 +25,7 @@
         <nav>
             <a href="#" class="selectedNav">Pitch</a>
             <a href="sites/FAQ.html">Hjälp</a>
-            <a href="sites/Settings.html">Inställningar</a>
+            <a href="sites/Settings.html">Javascriptlabb</a>
             <a href="sites/About.html">Om</a>
         </nav>
     </header>
@@ -85,6 +85,7 @@
         <aside id="rightSide">
             <p class="label">Pitch:</p>
             <div id="output"></div>
+            <button id="downloadButton" hidden="true" onclick="download()">Ladda ner</button>
         </aside>
 
 
@@ -98,5 +99,6 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/downloader.js"></script>
     </body>
 </html>
