@@ -27,8 +27,6 @@ var player = new Player();
 function update(){
     ctx.clearRect(0, 0, viewport.width, viewport.height);
 
-    var deg = 10;
-
     //remeber our state
     ctx.save();
 
